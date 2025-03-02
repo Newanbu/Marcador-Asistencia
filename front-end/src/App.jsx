@@ -25,6 +25,7 @@ function App() {
             </Routes>
           </AuthProvider>
         </Router>
+        {/* Codigo creado por JOHN E. SELTI ALCAYAGA */}
       </ChakraProvider>
     </>
   )
