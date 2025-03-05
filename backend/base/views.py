@@ -172,8 +172,6 @@ def get_notes(self, request):
     return Response(serializer.data)
 
 
-
-
 class UsuarioSoloHorasPermission(BasePermission):
     """
     Permite acceso solo a usuarios con el rol 'Usuario' para hora_entrada y hora_salida.

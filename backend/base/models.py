@@ -35,7 +35,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     )
 
     PERMISOS_ROLES = {
-        'admin_general': ['view_all', 'add_all', 'change_all', 'delete_all'],
+        'admin_general': ['view_all', 'add_all', 'change_all', 'delete_all','view_hora_entrada', 'add_hora_entrada', 'view_hora_salida', 'add_hora_salida'],
         'usuario': ['view_hora_entrada', 'add_hora_entrada', 'view_hora_salida', 'add_hora_salida'],
     }
 
